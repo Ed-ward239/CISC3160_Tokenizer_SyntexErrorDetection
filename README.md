@@ -24,34 +24,35 @@ NonZeroDigit:
 Digit:
 	0|1|...|9
 
-*Sample inputs and outputs*
+*Sample inputs and outputs
 
-Input 1
-x = 001;
+- Input 1
+  x = 001;
 
-Output 1
-error
+  Output 1
+  error
 
-Input 2
-x_2 = 0;
+- Input 2
+  x_2 = 0;
 
-Output 2
-x_2 = 0
+  Output 2
+  x_2 = 0
 
-Input 3
-x = 0
-y = x;
-z = ---(x+y);
+- Input 3
+  x = 0
+  y = x;
+  z = ---(x+y);
 
-Output 3
-error
+  Output 3
+  error
 
-Input 4
-x = 1;
-y = 2;
-z = ---(x+y)*(x+-y);
+- Input 4
+  x = 1;
+  y = 2;
+  z = ---(x+y)*(x+-y);
 
-Output 4
-x = 1
-y = 2
-z = 3
+  Output 4
+  x = 1
+  y = 2
+  z = 3
+*
